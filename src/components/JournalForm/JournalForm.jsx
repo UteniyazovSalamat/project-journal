@@ -95,7 +95,7 @@ const JournalForm = ({ onSubmit }) => {
                     [styles['invalid']]: !isValid.post,
                 })}></textarea>
 
-            <Button text="Сохранить" />
+            <Button>Сохранить</Button>
         </form>
     );
 };

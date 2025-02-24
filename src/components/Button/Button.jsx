@@ -1,9 +1,9 @@
 import styles from './Button.module.css';
 
-const Button = ({ text, onClick }) => {
+const Button = ({ children, onClick }) => {
     return (
         <button className={`${styles.btn} ${styles.accent}`} onClick={onClick}>
-            {text}
+            {children}
         </button>
     );
 };
